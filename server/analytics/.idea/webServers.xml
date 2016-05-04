@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="225928aa-c0a2-4ff1-9ad9-5948eb94bde2" name="test" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\ktaed\Documents\proximity-master\server\analytics" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
