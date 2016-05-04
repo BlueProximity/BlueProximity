@@ -1,0 +1,151 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#analytics_template, #log_template{
+	display:none;
+}
+
+.inline{
+	display:inline-block;
+}
+
+.inlineHeaderXL, .inlineHeaderTitle{
+	display:inline-block;
+	width:250px;
+	background-color: #EEEEF7;
+	padding:5px;
+	margin-bottom:1px;
+	margin-right:-3px;
+}
+
+.inlineHeaderTitle{
+	background-color: #E9EAF5;
+}
+
+.inlineHeader{
+	display:inline-block;
+	width:100px;
+}
+
+.noselect, .beacon, .beacon_subheader, .mlogin_submit{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#user_container{
+	background-color:#F2F2F2;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:25px;
+	border-bottom: 2px solid #CCC;
+	display:none;
+}
+
+#user_image{
+	width:200px;
+	height:200px;
+	box-shadow: 0px 0px 5px #E0E0E0;
+	display:inline-block;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+}
+
+#user_info{
+	height:200px;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:15px;
+}
+
+#user_name{
+	color:#626262;
+	font-weight:bold;
+	font-size:32;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+#user_title{
+	color:#868686;
+	font-style:italic;
+	margin-bottom:20px;
+	font-size:20;
+	margin-left:5px;
+}
+
+#user_mac{
+	color:#868686;
+	font-style:italic;
+	margin-bottom:20px;
+	margin-left:5px;
+}
+
+.beacon{
+	line-height: 45px;
+	height: 45px;
+	background-color: #DBEFFF;
+	border-bottom: solid #CCC 2px;
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bolder;
+	color: #666;
+	padding-left:10px;
+}
+
+.beacon_name{
+	display:inline-block;
+}
+
+.beacon_right{
+	display:inline-block;
+	float:right;
+}
+
+.beacon:hover{
+	background-color: #C2E4FF;
+}
+
+.beacon_content{
+	width: 97%;
+	padding-top:5px;
+	padding-bottom:15px;
+	#background-color: #BDBDBD;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.beacon_subheader{
+	line-height: 25px;
+	height: 25px;
+	background-color: #EDF4FA;
+	border-bottom: solid #CCC 2px;
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bolder;
+	color: #666;
+	
+	padding-left:10px;
+	#margin-right:20px;
+}
+
+.beacon_subheader:hover{
+	background-color:#C7E1FD;
+}
+
+.beacon_subcontent{
+	padding: 10px;
+	#margin-right:20px;
+	margin-bottom:5px;
+	background-color: #F4F4F4;
+}

@@ -1,0 +1,36 @@
+.padded_container, #page_container{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#page_container{
+	padding-top:65px;
+	background-color:#FEFEFE;
+	padding-left:5px;
+	padding-right:5px;
+	min-height:100%;
+	box-shadow: 0px 0px 5px #E0E0E0;
+	padding-bottom:-65px;
+}
+
+#logo{
+	height:35px;
+	width:auto;
+	margin-top:10px;
+	margin-left:-5px;
+	cursor:pointer;
+}
+
+#logo:hover{
+	opacity:0.9;
+}
+
+#top_bar{
+	height: 55px;
+	width: 100%;
+	background-color: #2b677b;
+	box-shadow: 2px 2px 2px #888888;
+	position: fixed;
+}
