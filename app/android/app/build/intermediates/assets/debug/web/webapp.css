@@ -1,0 +1,123 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	background-color:#F0F0F0;
+	width:100%;
+	height:100%;
+}
+
+.menuOption, .menuOptionCont{
+	background-color:#DDD;
+	height:50px;
+	width:100%;
+
+	text-align:left;
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+	line-height:42px;
+	margin-bottom:2px;
+}
+
+.menuOptionText{
+	float:left;
+	padding-left:5px;
+}
+
+.menuOptionMin{
+	float:right;
+	width:50px;
+	height:100%;
+	background-color:#DDD;
+	border-left: #F0F0F0 2px solid;
+	text-align:center;
+}
+
+.menuOption:active, .menuOptionMin:active{
+	
+}
+
+#menu{
+	width:100%;
+	height:50px;
+	background-color:#24B6F9 ;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#noDevicesFound{
+	height:50px;
+	line-height:45px;
+	width:100%;
+	color:#999;
+	z-index:0;
+	text-align:center;
+	pointer-events:none;
+}
+
+#menuTitle{
+	float:left;
+	margin-left: 5px;
+	color:#FFF;
+	line-height:45px;
+	height:50px;
+	font-weight: bolder;
+	font-size:18;
+}
+
+.menuButton{
+	height:34px;
+	width:34px;
+	padding:7px;
+	float:right;
+	border-left: #1EB8FF 2px solid;
+}
+
+#options, #content{
+	padding-top:55px;
+}
+
+#options{
+	display:none;
+}
+
+.colorAnim{
+	transition:background-color 10s !important; 
+}
+
+.inRange{
+	background-color:#0F0 !important;
+}
+
+.beaconItem{
+	background-color:#DDD;
+	width:100%;
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+	margin-bottom:2px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.beaconMac{
+	#float:left;
+	padding-left:15px;
+}
+
+.beaconRssi{
+	#float:right;
+	padding-right:15px;
+}
+
+.infoOnly{
+	
+}

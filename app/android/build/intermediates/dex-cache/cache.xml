@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\proximity-master\app\android\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.5.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3e75f1ad43fbaff21262ec4f3798bcbc34d672fe">
+        <dex dex="C:\proximity-master\app\android\app\build\intermediates\pre-dexed\release\classes-44ba1fa974a191cf9c4c9626cbc116baf2bf349c.jar" />
+    </item>
+
+</items>

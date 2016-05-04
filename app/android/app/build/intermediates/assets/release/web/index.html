@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="webapp.css">
+    <script src="webapp.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="menu">
+            <div id="menuTitle">BluProximity</div>
+            <img id="optionsButton" class="menuButton" src="options.png" />
+        </div>
+
+        <div id="options">
+            <div class="menuOption">
+                <div id="THR_T" class="menuOptionText"> Threshold (-1) </div>
+                <div id="THR_I" class="menuOptionMin"> + </div>
+                <div id="THR_D" class="menuOptionMin"> - </div>
+            </div>
+
+            <!--div class="menuOption">
+                <div id="SAMP_T" class="menuOptionText infoOnly"> Sample Length (1000ms) </div>
+                <div id="SAMP_I" class="menuOptionMin"> + </div>
+                <div id="SAMP_D" class="menuOptionMin"> - </div>
+            </div-->
+
+            <div class="menuOption">
+                <div id="OSR_T" class="menuOptionText infoOnly"> Open Scan Rate (250ms) </div>
+                <!--div id="OSR_I" class="menuOptionMin"> + </div>
+                <div id="OSR_D" class="menuOptionMin"> - </div!-->
+            </div>
+
+            <div class="menuOption">
+                <div id="CSR_T" class="menuOptionText infoOnly"> Closed Scan Rate (250ms) </div>
+                <!--div id="CSR_I" class="menuOptionMin"> + </div>
+                <div id="CSR_D" class="menuOptionMin"> - </div!-->
+            </div>
+            
+			<div class="menuOption">
+                <div id="DEVICE_MAC" class="menuOptionText infoOnly"> MAC: FF:FF:FF:FF:FF:FF:FF </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="noDevicesFound"> No valid iBeacons in range. </div>
+        </div>
+    </div>
+</body>
+
+</html>
